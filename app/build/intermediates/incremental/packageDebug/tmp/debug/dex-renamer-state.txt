@@ -1,0 +1,4 @@
+#Mon Jun 29 14:34:00 CST 2020
+base.0=/Users/dingdongliu/AndroidStudioProjects/Anti-noise-Compass/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

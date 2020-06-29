@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Anti-noise-Compass.iml" filepath="$PROJECT_DIR$/.idea/modules/Anti-noise-Compass.iml" group="Anti-noise-Compass" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Anti-noise-Compass/app" />
+    </modules>
+  </component>
+</project>
