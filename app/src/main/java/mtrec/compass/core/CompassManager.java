@@ -71,7 +71,7 @@ public class CompassManager {
 		initValues();
 
 		//Handler Thread
-		mCalculationHandlerThread = new HandlerThread("Campass Calculation Thread");
+		mCalculationHandlerThread = new HandlerThread("Compass Calculation Thread");
 		mCalculationHandlerThread.start();
 		mCalculationHandler = new Handler(mCalculationHandlerThread.getLooper());
 
@@ -152,7 +152,7 @@ public class CompassManager {
 							oldQuaternion[i] = low_pass_factor*oldQuaternion[i] + (1-low_pass_factor)*newQuaternion[i];
 						}
 						
-						mSensorManager.getRotationMatrixFromVector(Rmatrix, oldQuaternion);
+						SensorManager.getRotationMatrixFromVector(Rmatrix, oldQuaternion);
 
 						//calculate degree changes
 						//x-y plane direction rotate degree
@@ -259,15 +259,11 @@ public class CompassManager {
 
 		if (!isReal)	//magnet degrees
 		{
-			for (int i = 0; i < degrees.length; i++) {
-				magnetDegree[i] = degrees[i];
-			}
+			System.arraycopy(degrees, 0, magnetDegree, 0, degrees.length);
 			if (!mDirectionStarted)
 			{
 				//initial state
-				for (int i = 0; i < degrees.length; i++) {
-					mReferenceDegree[i] = degrees[i];
-				}
+				System.arraycopy(degrees, 0, mReferenceDegree, 0, degrees.length);
 				mDirectionStarted = true;
 			} 
 			else 
@@ -306,8 +302,8 @@ public class CompassManager {
 			}
 		}
 
-		for (CompassListener campassListener : mCampassListeners) {
-			campassListener.onDirectionChanged(magnetDegree[0], mReferenceDegree[0] + mDiff[0]);
+		for (CompassListener compassListener : mCampassListeners) {
+			compassListener.onDirectionChanged(magnetDegree[0], mReferenceDegree[0] + mDiff[0]);
 		}
 
 	}

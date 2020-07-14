@@ -1,10 +1,82 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dingdongliu/AndroidStudioProjects/Anti-noise-Compass/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "C:\\Users\\86188\\StudioProjects\\Anti-noise-Compass\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "/Users/dingdongliu/.gradle/caches/transforms-2/files-2.1/f88df7c86cbc989e82020e686162bad6/core-1.0.0/res/values/values.xml",
+                    "source": "C:\\Users\\86188\\StudioProjects\\Anti-noise-Compass\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "613,671",
+                        "endColumns": "57,55",
+                        "endOffsets": "666,722"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86188\\StudioProjects\\Anti-noise-Compass\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,525",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "484,682"
+                    },
+                    "to": {
+                        "startLines": "54,61",
+                        "startColumns": "4,4",
+                        "startOffsets": "3247,3538",
+                        "endLines": "60,63",
+                        "endColumns": "12,12",
+                        "endOffsets": "3533,3693"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86188\\StudioProjects\\Anti-noise-Compass\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,59,159",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "153,99,207"
+                    },
+                    "to": {
+                        "startLines": "50,51,52",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3025,3078,3123",
+                        "endColumns": "52,44,52",
+                        "endOffsets": "3073,3118,3171"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86188\\.gradle\\caches\\transforms-2\\files-2.1\\ab482c9af1b0695a8fb7a5348063e87e\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,102,3,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,5935,116,724",
+                        "endLines": "2,104,12,101",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,6075,719,5930"
+                    },
+                    "to": {
+                        "startLines": "2,82,92,102",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,4977,5420,6028",
+                        "endLines": "2,84,101,190",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,5117,6023,11234"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\86188\\.gradle\\caches\\transforms-2\\files-2.1\\f88df7c86cbc989e82020e686162bad6\\core-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,41 +95,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dingdongliu/AndroidStudioProjects/Anti-noise-Compass/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "101,56,154",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "149,96,202"
-                    },
-                    "to": {
-                        "startLines": "50,51,52",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "3025,3078,3123",
-                        "endColumns": "52,44,52",
-                        "endOffsets": "3073,3118,3171"
-                    }
-                },
-                {
-                    "source": "/Users/dingdongliu/AndroidStudioProjects/Anti-noise-Compass/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
-                    },
-                    "to": {
-                        "startLines": "10,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "613,671",
-                        "endColumns": "57,55",
-                        "endOffsets": "666,722"
-                    }
-                },
-                {
-                    "source": "/Users/dingdongliu/.gradle/caches/transforms-2/files-2.1/ffc4098914b91b7860907277c6a73623/media-1.0.0/res/values/values.xml",
+                    "source": "C:\\Users\\86188\\.gradle\\caches\\transforms-2\\files-2.1\\ffc4098914b91b7860907277c6a73623\\media-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,44 +109,6 @@
                         "startOffsets": "248,337,466,2193,2246,2299,2352,2895,4016,4192,4314,4576,4771",
                         "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
                         "endOffsets": "332,403,534,2241,2294,2347,2400,2950,4077,4309,4370,4637,4833"
-                    }
-                },
-                {
-                    "source": "/Users/dingdongliu/AndroidStudioProjects/Anti-noise-Compass/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "54,61",
-                        "startColumns": "4,4",
-                        "startOffsets": "3247,3538",
-                        "endLines": "60,63",
-                        "endColumns": "12,12",
-                        "endOffsets": "3533,3693"
-                    }
-                },
-                {
-                    "source": "/Users/dingdongliu/.gradle/caches/transforms-2/files-2.1/ab482c9af1b0695a8fb7a5348063e87e/coordinatorlayout-1.0.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,102,3,13",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,5935,116,724",
-                        "endLines": "2,104,12,101",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "111,6075,719,5930"
-                    },
-                    "to": {
-                        "startLines": "2,82,92,102",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,4977,5420,6028",
-                        "endLines": "2,84,101,190",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "111,5117,6023,11234"
                     }
                 }
             ]

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.0"
+    buildToolsVersion "30.0.1"
 
     defaultConfig {
         applicationId "mtrec.rock.campass"
@@ -20,4 +20,5 @@ android {
 
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    compile files('libs/opencsv-2.1-1.0.0.jar')
 }

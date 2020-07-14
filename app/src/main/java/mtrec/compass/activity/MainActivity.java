@@ -54,11 +54,11 @@ public class MainActivity extends Activity {
 		calculationHandler = new Handler(handlerThread.getLooper());
 		
 		//imageView
-		absoluteCampassView = (CompassView) findViewById(R.id.absoluteNorth);
+		absoluteCampassView = findViewById(R.id.absoluteNorth);
 
-		magText = (TextView) findViewById(R.id.magnitude);
-		mReferenceText = (TextView) findViewById(R.id.mReference);
-		mDiffText = (TextView) findViewById(R.id.mDiff);
+		magText = findViewById(R.id.magnitude);
+		mReferenceText = findViewById(R.id.mReference);
+		mDiffText = findViewById(R.id.mDiff);
 		
 		sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         
@@ -67,14 +67,15 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onDirectionChanged(final float magDegree,  final float oriDegree) {
-				
+
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {
 						absoluteCampassView.setAbsoluteNorth(oriDegree);
 						absoluteCampassView.setMagneticNorth(magDegree);
-						mReferenceText.setText("maxSpeed: "+ String.valueOf(mCampassManager.maxAngularSpeed));
-						mDiffText.setText("mRefer: " + String.valueOf(mCampassManager.mReferenceDegree[0]));
+						System.out.print("oriDegree="+ oriDegree + " " +"magDegree="+ magDegree);
+						mReferenceText.setText("maxSpeed: "+ mCampassManager.maxAngularSpeed);
+						mDiffText.setText("mRefer: " + mCampassManager.mReferenceDegree[0]);
 					}
 				});
 			}
@@ -82,6 +83,7 @@ public class MainActivity extends Activity {
 		
 	
 		pressOnceMoreWhenLeave = Toast.makeText(this, "Press once more to leave", Toast.LENGTH_SHORT);
+		pressOnceMoreWhenLeave.show();
 	}
 	
 	
